@@ -28,7 +28,6 @@ export default function Auth() {
   const [isSignedUP, setIsSignedUP] = useState(false);
 
   const handlePasswordChange = (password) => {
-    setPassword(password);
     validatePassword(password);
     checkPasswordStrength(password);
   };

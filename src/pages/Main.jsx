@@ -1,5 +1,5 @@
 import Button from "../UI/Button/Button";
-import banner from "../assets/images/banner2.webp";
+import banner from "../assets/images/banner2.jpg";
 import user from "../assets/images/user.webp";
 import Gallery from "../components/Gallery/Gallery";
 
