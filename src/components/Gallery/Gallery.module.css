@@ -1,0 +1,22 @@
+.games {
+    display: flex;
+    gap: 10px;
+    overflow-x: hidden;
+    height: 100%;
+    user-select: none;
+}
+
+.game {
+    width: 400px;
+    height: 95%;
+    position: relative;
+    cursor: pointer;
+}
+
+.gameName {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    color: rgb(255, 0, 0);
+}
